@@ -14,7 +14,7 @@ const displayPhones = (phones) => {
     console.log(phone);
 
     const phoneCard = document.createElement("div");
-    phoneCard.classList = "card card-compact bg-base-100 w-96 shadow-xl";
+    phoneCard.classList = "card card-compact bg-white w-96 shadow-xl";
     
     phoneCard.innerHTML = `
         <figure><img src="${phone.image}" alt="Shoes" /></figure>
